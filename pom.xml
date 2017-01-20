@@ -18,6 +18,7 @@
 
 	<modules>
         <module>intel-data-app-api</module>
+        <module>intel-data-app-model</module>
     </modules>
 
 	<properties>
