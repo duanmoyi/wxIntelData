@@ -3,6 +3,14 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <project-version>1.0.0</project-version>
+        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
+    </properties>
+
 	<groupId>wx.intel.data</groupId>
 	<artifactId>intel-data-parent</artifactId>
 	<version>${project-version}</version>
@@ -17,17 +25,8 @@
     </parent>
 
 	<modules>
-        <module>intel-data-app-api</module>
-        <module>intel-data-app-model</module>
+        <module>intel-data-api-center</module>
     </modules>
-
-	<properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <java.version>1.8</java.version>
-		<project-version>1.0.0</project-version>
-        <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
-	</properties>
 
     <dependencyManagement>
         <dependencies>

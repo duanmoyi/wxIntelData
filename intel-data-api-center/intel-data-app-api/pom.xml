@@ -4,16 +4,15 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>intel-data-app-api</artifactId>
-	<version>1.0.0</version>
+	<version>${project-version}</version>
 	<packaging>jar</packaging>
 
 	<name>intel-data-app-api</name>
-	<description>Demo project for Spring Boot</description>
 
 	<parent>
 		<groupId>wx.intel.data</groupId>
-		<artifactId>intel-data-parent</artifactId>
-		<version>1.0.0</version>
+		<artifactId>intel-data-api-center</artifactId>
+		<version>${project-version}</version>
 	</parent>
 
 	<dependencies>
