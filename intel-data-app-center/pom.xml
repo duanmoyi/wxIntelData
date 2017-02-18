@@ -12,6 +12,7 @@
     <modules>
         <module>intel-data-app-api</module>
         <module>intel-data-app-model</module>
+        <module>intel-data-app-run</module>
     </modules>
 
     <artifactId>intel-data-app-center</artifactId>
