@@ -43,14 +43,14 @@
                 <version>1.2.3</version>
             </dependency>
             <dependency>
-                <groupId>wx.intel.data</groupId>
-                <artifactId>intel-data-app-model</artifactId>
-                <version>${project-version}</version>
+                <groupId>org.springframework.data</groupId>
+                <artifactId>spring-data-jpa</artifactId>
+                <version>1.10.6.RELEASE</version>
             </dependency>
             <dependency>
-                <groupId>wx.intel.data</groupId>
-                <artifactId>intel-data-app-api</artifactId>
-                <version>${project-version}</version>
+                <groupId>org.grails</groupId>
+                <artifactId>gorm-hibernate5-spring-boot</artifactId>
+                <version>6.0.0.RC1</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
